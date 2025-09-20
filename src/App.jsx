@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import './App.css'
 import Navbar from './components/Navbar'
 import CompanyLogo from './components/CompanyLogo'
+import PurposeSection from './components/PurposeSection'
 
 function App() {
   
@@ -16,6 +17,7 @@ function App() {
           <div className="overflow-hidden">
             <Hero />
             <CompanyLogo />
+            <PurposeSection />
           </div>
       </main>
 
