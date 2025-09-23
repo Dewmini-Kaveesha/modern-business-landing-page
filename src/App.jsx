@@ -6,7 +6,6 @@ import CompanyLogo from './components/CompanyLogo'
 import PurposeSection from './components/PurposeSection'
 
 function App() {
-  
 
   return (
 
