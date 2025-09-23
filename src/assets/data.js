@@ -13,4 +13,3 @@ export const features = [
       description: "We work the way you do by adapting to your workflows and rhythm we aim to blend in for a seamless."
     }
   ];
-

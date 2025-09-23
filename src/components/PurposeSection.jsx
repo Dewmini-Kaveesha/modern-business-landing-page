@@ -49,4 +49,4 @@ const PurposeSection = () => {
   )
 }
 
-export default PurposeSection
+export default PurposeSection;
