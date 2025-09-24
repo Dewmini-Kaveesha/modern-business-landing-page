@@ -1,2 +1,7 @@
 @import "tailwindcss";
 
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px; /* Offset for fixed navbar */
+}
