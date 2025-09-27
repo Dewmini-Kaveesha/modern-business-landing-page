@@ -1,13 +1,25 @@
 import React from 'react'
+import ScheduleImage from '../assets/stats.webp'
 
 const ScheduleSection = () => {
   return (
     <section className='max-w-7xl mx-auto px-4 py-16 md:py-24'>
       <div className='flex flex-col md:flex-row items-center justify-between gap-12 md:gap-24'>
         {/* left section */}
-        <div > left</div>
+        <div className='md:w-1/2 w-full'> 
+          <img src={ScheduleImage} alt="Schedule Image" className='w-full h-auto' />
+        </div>
         {/* right section */}
-        <div>right</div>
+        <div className='md:w-1/2 w-full'>
+          <p className="text-orange-500 font-semibold">SCHEDULE</p>
+          <h2 className="text-3xl">Streamline Your Business <br />
+              With Smart Scheduling Solutions
+          </h2>
+          <p className="text-gray-600 mb-8">Take control of your time and boost productivity with our 
+            intelligent scheduling system.Automate appointments, manage team availability, and deliver exceptional customer experiences
+            through seamless calender management. </p>
+
+        </div>
       </div>
     </section>
   )
