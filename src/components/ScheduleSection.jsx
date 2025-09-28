@@ -1,5 +1,7 @@
 import React from 'react'
 import ScheduleImage from '../assets/stats.webp'
+import { FaArrowRightLong } from "react-icons/fa6";
+
 
 const ScheduleSection = () => {
   return (
@@ -18,7 +20,12 @@ const ScheduleSection = () => {
           <p className="text-gray-600 mb-8">Take control of your time and boost productivity with our 
             intelligent scheduling system.Automate appointments, manage team availability, and deliver exceptional customer experiences
             through seamless calender management. </p>
-
+            <a href="#" className='text-blue-500 font-semibold flex items-center gap-2 hover:gap-4
+            transition-all'>
+              Explore scheduling features
+              <FaArrowRightLong className='size-8'/>
+ 
+            </a>
         </div>
       </div>
     </section>
