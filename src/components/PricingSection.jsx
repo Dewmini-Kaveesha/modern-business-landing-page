@@ -44,6 +44,12 @@ const PricingSection = () => {
               <span className='text-sm text-gray-600 font-medium'>50</span>
             </div>
           </div>
+
+          <div className='text-center mt-12'>
+            <p className='text-xl text-gray-600 mb:4 '>Ready to get Started ?</p>
+            <button className='bg-blue-600 text-white mt-4 px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer'>Get Started</button>
+          </div>
+
         </div>
       </div>
     </section>
