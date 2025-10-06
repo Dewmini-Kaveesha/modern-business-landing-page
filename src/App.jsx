@@ -10,6 +10,7 @@ import MonitorSection from './components/MonitorSection'
 import PricingSection from './components/PricingSection'
 import ServicesSection from './components/ServicesSection'
 import { NewsletterSection } from './components/NewsletterSection'
+import Footer from './components/footer'
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
             <PricingSection />
             <ServicesSection />
             <NewsletterSection />
+            <Footer />
 
           </div>
       </main>
