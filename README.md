@@ -11,6 +11,8 @@ A modern, responsive business landing page built with React, Vite, and Tailwind 
 - **Interactive Pricing** - Dynamic pricing calculator with product slider
 - **Services Showcase** - Professional services grid with icons
 - **Schedule & Monitor Sections** - Business scheduling and monitoring features
+- **Newsletter Subscription** - Email newsletter signup with modern design
+- **Professional Footer** - Comprehensive footer with navigation links
 - **Purpose Section** - Company mission and values presentation
 
 ## 🛠️ Tech Stack
@@ -32,6 +34,8 @@ A modern, responsive business landing page built with React, Vite, and Tailwind 
 - `ScheduleSection` - Business scheduling features
 - `MonitorSection` - Monitoring and analytics
 - `PricingSection` - Interactive pricing calculator
+- `NewsletterSection` - Email subscription component
+- `Footer` - Professional footer with navigation links
 
 ## 🚀 Getting Started
 
@@ -94,9 +98,18 @@ src/
 │   ├── ServicesSection.jsx
 │   ├── ScheduleSection.jsx
 │   ├── MonitorSection.jsx
-│   └── PricingSection.jsx
+│   ├── PricingSection.jsx
+│   ├── NewsletterSection.jsx
+│   └── Footer.jsx      # Footer component
 ├── assets/             # Static assets
-│   ├── images/         # Image files
+│   ├── amazon.png      # Company logos
+│   ├── slack.png
+│   ├── woocommerce.png
+│   ├── meundies.png
+│   ├── sitepoint.png
+│   ├── hero-image.png  # Hero section image
+│   ├── monitor-card.webp
+│   ├── stats.webp
 │   └── data.js         # Static data
 ├── App.jsx             # Main app component
 ├── main.jsx           # App entry point
@@ -120,6 +133,17 @@ src/
 - Smooth horizontal scrolling animation
 - Hover effects with color transitions
 - Responsive design
+
+### Newsletter Subscription
+- Modern email subscription form
+- Call-to-action design
+- Email validation
+
+### Professional Footer
+- Multi-column navigation links
+- Company information and branding
+- Social media integration
+- Organized link categories (Company, Get Help, Support, Contact)
 
 ## 🤝 Contributing
 
