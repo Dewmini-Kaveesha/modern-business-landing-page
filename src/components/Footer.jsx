@@ -30,7 +30,7 @@ const footerLinks = {
 const Footer = () => {
   return (
     <footer className='bg-gray-50 '>
-        <div className="container mx-auto px-4 sm:px-4 md:px-6 lg:px-8 py-16 ">
+        <div className="container mx-auto px-4 sm:px-4 md:px-6 lg:px-8 pt-16 pb-8">
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 lg:gap-12'>
                 {/*brand column*/}
                 <div className='lg:col-span-4 '>
@@ -41,7 +41,7 @@ const Footer = () => {
                 </div>
                 <span className='text-xl font-medium ml-1'>The next Design</span>
                 </div>
-                <p className='text-gray-600 mb-6'>The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times</p>
+                <p className='text-gray-600 mb- md:w-3/4'>The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times</p>
                 <div className='flex gap-4'>
                     <a href="#" className='w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center
                     text-gray-600 hover:bg-blue-600 hover:text-white transition-all duration-200'><FaFacebookF 
@@ -76,6 +76,10 @@ const Footer = () => {
                 </div>
 
 
+            </div>
+            {/*footer bottom text */}
+            <div className='border-t border-gray-200 pt-8 mt-12'>
+              <p className='text-gray-600 text-sm'>Copyright © {new Date().getFullYear()} All rights reserved.</p>
             </div>
         </div>
     </footer>
